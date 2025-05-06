@@ -38,8 +38,8 @@ Managing multiple projects involves tracking budgeted vs actual income and expen
 - Color-coded variance indicators for quick health check
 
 ### 📊 Visuals
-- **Donut Chart (SVG)** showing Expense % of Budget
-- **Progress Bar (SVG)** for Income % of Budget
+- **Donut Chart (SVG)** showing Expense % & Income % of Budget
+- **Progress Bar (SVG)** for Expense % & Income % of Budget
 - **Bar Charts** comparing budget vs actual over multiple years
 - **Project-wise Table** with:
   - Actual vs Budget
@@ -59,13 +59,13 @@ This dashboard includes **hand-coded SVG visuals via DAX**, pushing the boundari
 
 ### 🟢 Expense & Income Donut Chart
 - Created using inline SVG rendered from DAX.
-- Visualizes **% of Expense Budget** with dynamic animation and coloring:
+- Visualizes **% of Expense Budget** & **% of Income Budget** with dynamic animation and coloring:
   - 🟢 Green: <95% (on target)
   - 🟠 Amber: 95% (monitor)
   - 🔴 Red: >95% (overspent)
 
 ### 📊 Expense & Income Progress Bar
-- Custom horizontal bar showing **% of Income Budget achieved**.
+- Custom horizontal bar showing **% of Expense Budget reached** & **% of Income Budget achieved**.
 - Dynamic coloring logic:
   - 🔴 Red: Under 95% (underperforming)
   - 🟠 Amber: At 95%
